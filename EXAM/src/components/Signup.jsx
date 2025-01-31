@@ -31,7 +31,7 @@ const Signup = () => {
 
         try {
             // Send POST request to the backend
-            const response = await fetch('http://localhost:5001/signup', {
+            const response = await fetch('https://exam-scheduler-1.onrender.com/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

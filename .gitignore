@@ -3,6 +3,7 @@ node_modules/
 npm-debug.log*
 yarn.lock
 pnpm-lock.yaml
+backend/node_modules/
 
 # Vite build files
 dist/

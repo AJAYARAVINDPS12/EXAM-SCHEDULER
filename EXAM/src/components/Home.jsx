@@ -17,7 +17,7 @@ const Home = ({ user }) => {
             }
 
             try {
-                const response = await axios.get(`http://localhost:5001/exams?createdBy=${user.email}`);
+                const response = await axios.get(`https://exam-scheduler-1.onrender.com/exams?createdBy=${user.email}`);
                 
                 // Get the current date in YYYY-MM-DD format
                 const currentDate = new Date().toISOString().split('T')[0];

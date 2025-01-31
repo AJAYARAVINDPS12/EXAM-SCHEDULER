@@ -12,7 +12,7 @@ const ExamHistory = ({ user }) => {
             if (!user) return;
             
             try {
-                const response = await axios.get('http://localhost:5001/exams', {
+                const response = await axios.get('https://exam-scheduler-1.onrender.com/exams', {
                     params: { createdBy: user.email }
                 });
 

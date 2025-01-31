@@ -18,7 +18,7 @@ const ScheduleExam = ({ user }) => {
         }
 
         try {
-            const response = await axios.post('http://localhost:5001/schedule-exam', {
+            const response = await axios.post('https://exam-scheduler-1.onrender.com/schedule-exam', {
                 examName,
                 subject,
                 date,

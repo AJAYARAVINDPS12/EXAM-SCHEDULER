@@ -9,7 +9,7 @@ const Notifications = ({ userEmail }) => {
     useEffect(() => {
         if (!userEmail) return;
 
-        fetch(`http://localhost:5001/notifications?createdBy=${userEmail}`)
+        fetch(`https://exam-scheduler-1.onrender.com/notifications?createdBy=${userEmail}`)
             .then(response => response.json())
             .then(data => {
                 console.log("Fetched notifications:", data);
