@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Home.css';
-import HomePageImage from '../assets/HomePage.gif';
+import HomePageImage from '../assets/HOMEPAGE.gif';
 
 const Home = ({ user }) => {
     const [scheduledExams, setScheduledExams] = useState([]);
